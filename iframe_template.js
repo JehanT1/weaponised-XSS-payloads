@@ -26,5 +26,5 @@ frame.addEventListener("load", function() {
     }, 1000)
 });
 
-frame.src="https://example.com/sensitive/action.php"
+frame.src="https://evil.com"
 document.body.append(frame)
